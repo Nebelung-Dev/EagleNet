@@ -1,6 +1,25 @@
-<div class="navbar"></div>
+<div class="navbar">
+
+<div class="navname">EAGLENET</div>
+
+<div class="navitem surf">SURF FREELY</div>
+<div class="navitem arcade">ARCADE</div>
+<div class="navitem chatbox">CHATBOX</div>
+
+</div>
+
+<center>
+
+<img class="homelogo" src="/eagle.png" width="300px"></img>
+<div class="homename">EAGLENET</div>
+
+</center>
 
 <style>
+@import url('/Square.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
 .navbar {
 background: #343334;
 height: 45px;
@@ -11,6 +30,56 @@ left: 0
 }
 
 body {
-background: linear-gradient(to bottom left, #b546ff , #3693e5);;
+background: linear-gradient(to bottom left, #b546ff , #3693e5);
+}
+
+.navname {
+font-family: 'Square';
+font-size: 18px;
+line-height: 45px;
+margin-left: 10px;
+color: white;
+cursor: pointer;
+}
+
+.navitem {
+color: #787778;
+position: fixed;
+top: 0;
+line-height: 40px;
+right: 0;
+font-size: 20px;
+font-family: 'Quicksand', sans-serif;
+cursor: pointer;
+height: 45px;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.navitem:hover {
+background: #232123;
+}
+
+.surf {
+right: 211px;
+}
+
+.arcade {
+right: 112px;
+}
+
+.chatbox {
+right: 0px;
+}
+
+.homename {
+font-family: 'Square';
+font-size: 60px;
+color: white;
+}
+
+.homelogo {
+margin-top: 300px;
+
 }
 </style>
